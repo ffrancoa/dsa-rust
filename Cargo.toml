@@ -1,0 +1,5 @@
+[workspace]
+members = [
+  "exercises/01_books",
+  "exercises/02_leetcode",
+]
