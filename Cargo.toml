@@ -1,5 +1,5 @@
 [workspace]
 members = [
-  "exercises/02_leetcode/*"
+  "exercises/leetcode/*"
 ]
 resolver = "3"
