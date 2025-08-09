@@ -1,0 +1,10 @@
+[package]
+name    = "food_lines"
+version = "0.1.0"
+edition = "2024"
+
+[lints.rust]
+unused_variables = "allow"
+
+[dependencies]
+indoc = { version = "2.0.6" }

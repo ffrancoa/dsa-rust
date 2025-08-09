@@ -1,5 +1,6 @@
 [workspace]
 members = [
-  "exercises/01_books",
-  "exercises/02_leetcode",
+  "exercises/dmoj/*",
+  "exercises/leetcode/*"
 ]
+resolver = "3"
