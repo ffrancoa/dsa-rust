@@ -4,7 +4,11 @@ version = "0.1.0"
 edition = "2024"
 
 [lints.rust]
-unused_variables = "allow"
+unused_imports = "allow"
 
 [dependencies]
-indoc = { version = "2.0.6" }
+indoc   = { version = "2.0.6" }
+dmoj    = { version = "0.1.5" }
+
+[dev-dependencies]
+assert_cmd  = { version = "2.0.17" }

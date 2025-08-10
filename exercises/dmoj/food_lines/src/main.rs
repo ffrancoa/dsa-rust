@@ -12,9 +12,9 @@
 //
 // Constraints
 // -----------
-// 1 ≤ `N` ≤ 100
-// 1 ≤ `a_i` ≤ 100 for `i` in 1, 2, …, `N`
-// 1 ≤ `M` ≤ 100
+// 1 <= `N` <= 100
+// 1 <= `a_i` <= 100 for `i` in 1, 2, …, `N`
+// 1 <= `M` <= 100
 //
 // Input Specification
 // -------------------
@@ -26,26 +26,9 @@
 // Print `M` lines, the `i`th of which being the length of the line that the `i`th
 // person joined.
 
-pub fn food_lines(input: &str) -> String {
+#[macro_use]
+extern crate dmoj;
+
+fn main() {
     todo!("pending solution!")
-}
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-    use indoc::indoc;
-
-    #[test]
-    fn example() {
-        let input = indoc! {"
-            5 3
-            2 2 3 3 3
-        "};
-        let expected = indoc! {"
-            2
-            2
-            3
-        "};
-        assert_eq!(food_lines(input), expected);
-    }
 }
