@@ -22,5 +22,9 @@
 extern crate dmoj;
 
 fn main() {
-    todo!("pending solution!")
+    let n = scan!(usize);
+
+    for _ in 0..n {
+        println!("{}", scan!(i64) + scan!(i64));
+    }
 }
