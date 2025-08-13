@@ -25,6 +25,8 @@ fn main() {
     let n = scan!(usize);
 
     for _ in 0..n {
-        println!("{}", scan!(i64) + scan!(i64));
+        let (a, b) = scan!(i64, i64);
+        let result = a + b;
+        println!("{result}");
     }
 }
